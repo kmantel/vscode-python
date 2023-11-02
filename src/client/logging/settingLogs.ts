@@ -91,7 +91,7 @@ function logOnLegacyLinterSetting(): boolean {
     return usesLegacyLinter;
 }
 
-let _isShown = false;
+let _isShown = true;
 async function notifyLegacySettings(): Promise<void> {
     if (_isShown) {
         return;
